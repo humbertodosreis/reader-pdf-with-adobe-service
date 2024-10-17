@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "reading-pdf-with-adobe-service"
+version = "0.1.0"
+description = ""
+authors = ["Humberto dos Reis Rodrigues <rrodrigues.humberto@gmail.com>"]
+readme = "README.md"
+#packages = [{include = "scripts"}]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pdfservices-sdk = {path = "../pdfservices-python-sdk"}
+pandas = "^2.2.2"
+openpyxl = "^3.1.2"
+ipykernel = "^6.29.4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
